@@ -1,0 +1,23 @@
+{
+  "name": "bs-effect-middleware",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "test": "yarn build && jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bs-platform": "^5.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": "^0.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "jest": "^24.7.1",
+    "yarn": "^1.15.2"
+  }
+}
